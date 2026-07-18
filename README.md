@@ -1,7 +1,7 @@
 # Hackclub _Breadboard_ Plant Watering System
 For a Hackclub YSWS program, called Breadboard, I made and coded a machine based on Arduino that detects humidity of the air, temperature and soil moisture! It also has a LCD (16x2) and RGB LED module to visually show the data!
 
-My project achieves detecting all of this through the DHT11 sensor, and a water moisture sensor, that both act as inputs to give back to the Arduino. You can see all this working [here](https://breadboard.hackclub.com/share/215).
+My project achieves detecting all of this through the DHT11 sensor, and a water moisture sensor, that both act as inputs to give back to the Arduino. You can see all this working in the simulator [here](https://breadboard.hackclub.com/share/215).
 
 I made it to help keep your plants in good conditions, remember to water them and also check if you need to change the watering schedules based on external conditions. My plants always end up going dry or wilting, so I figured I can make something simple yet reliable, to help keep them green and healthy!
 
