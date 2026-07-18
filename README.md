@@ -30,7 +30,19 @@ I originallly had many files with code for each seperate component to test it's 
 - RGB LED - tested the RGB LED and allowed the user to set it to any colour value they would like
 - Buttons - tested buttons and printed out a message like 'Button 1 pressed!' onto the LCD
 
-After each component reliably worked, I was able to combine them, by putting functions into the 'Buttons' code that changed views, or the RGB LED into the soil moisture/water sensor code to change based on the value.
+After each component reliably worked, I was able to combine them, by putting functions into the 'Buttons' code that changed views, or the RGB LED into the soil moisture/water sensor code to change based on the value.\
+
+## Inputs vs Outputs table
+
+| Part | Input, output or both? | What it does |
+| :--- | :--- |:--- |
+| DHT11 | Input | Detects/senses temperature and humidity |
+| Water moisture sensor | Input | Detects/senses soil moisture |
+| RGB LED Module | Output | Lights up any colour you want |
+| 16x2 LCD | Output | Displays messages or text of your choice or based on something |
+| LCD I2C converter | Both | Takes 16 pins from the LCD in and gives 4 I2C pins out | 
+| x2 Push buttons | Inputs | Detects when it is pressed or held | 
+
 
 ## Parts list/BOM
 
@@ -44,3 +56,5 @@ After each component reliably worked, I was able to combine them, by putting fun
 | LCD I2C converter |
 | x2 Push buttons |
 | Large breadboard |
+
+All these parts are available in the Arduino kit that will be shipped by Hackclub!
