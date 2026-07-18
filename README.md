@@ -28,3 +28,15 @@ I originallly had many files with code for each seperate component to test it's 
 
 After each component reliably worked, I was able to combine them, by putting functions into the 'Buttons' code that changed views, or the RGB LED into the soil moisture/water sensor code to change based on the value.
 
+## Parts list/BOM
+
+| Header 1 (Left-Aligned) |
+| :--- |
+| Arduino |
+| DHT11 |
+| Water moisture sensor |
+| RGB LED Module |
+| 16x2 LCD |
+| LCD I2C converter |
+| x2 Push buttons |
+| Large breadboard |
